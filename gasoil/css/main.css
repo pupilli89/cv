@@ -1,0 +1,318 @@
+
+.fa {
+position: relative;
+display: table-cell;
+width: 60px;
+height: 36px;
+text-align: center;
+vertical-align: middle;
+font-size:18px;
+}
+.des {
+    position: relative;
+    display: table-cell;
+    width: 60px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-size:18px;
+}
+
+.head {
+  width: 100%;
+  height: 25px;
+  background-color: #0062a3;
+  border-bottom:1px solid #e5e5e5;
+  margin:0px;
+  color:whitesmoke;
+  font-family: 'Titillium Web', sans-serif;
+}
+.titulo {
+  padding-left:70px;
+  float: left;
+}
+.fecha {
+  float:right;
+  padding-right: 20px;
+   
+}
+.user {
+  clear: both;
+  margin: -20px auto;
+  width: 150px;
+  position: relative;
+  top: -24px;
+}
+.main-menu:hover,nav.main-menu.expanded {
+width:170px;
+overflow:visible;
+}
+
+.main-menu {
+background:#0062a3;
+border-right:1px solid #e5e5e5;
+position:absolute;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:60px;
+overflow:hidden;
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+z-index:1000;
+}
+
+.main-menu>ul {
+margin:7px 0;
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:170px;
+}
+
+.item {
+position:relative;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color:whitesmoke;
+font-family: arial;
+font-size: 14px;
+text-decoration:none;
+-webkit-transition:all .1s linear;
+transition:all .1s linear;
+  
+}
+.minbus {
+	float:right;
+	height: 18px;
+  width: 19px;
+  padding-top: 5px;
+}
+
+.main-menu .nav-icon {
+position:relative;
+display:table-cell;
+width:60px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+}
+.main-menu .nav-text {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:110px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.main-menu>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+}
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+}
+a:hover,a:focus {
+text-decoration:none;
+}
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+}
+.main-menu li:hover>a,.item:hover,.logout:hover,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#fff;
+background-color:#5fa2db;
+cursor: pointer;
+}
+.area {
+float: left;
+width: 100%;
+height: 100%;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(https://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+.conte {
+  width: 100%;
+  height: calc( 100% - 25px);
+  overflow-y: scroll;
+  position: fixed;
+  padding-left: 32px;
+  font-family: "Titillium Web";
+  font-size: large;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+body {
+    background-color: #dce8e7;
+    background-repeat:no-repeat;
+    background-position: 0px -100px;
+    background-image: url('../ima/bk89.png');
+    margin:0px;
+}
+.ing_fac {
+   font-family: "Titillium Web";
+   text-align: center;
+   text-transform: uppercase;
+   border:0px solid #000; 
+   margin:0; 
+   background:transparent; 
+   width:100%;
+   color:#0071bc;
+   font-size: medium;
+}
+.ing_fac_num {
+  text-align: right;
+}
+.htable {
+  padding-left: 6px;
+  color:#0062a3;
+  font-weight: bold;
+}
+.lista_fac_r {
+  text-align: right;
+  padding: 1px 9px 1px 9px;
+  font-size: 16px;
+}
+.lista_fac_c {
+  text-align: center;
+  padding: 1px 9px 1px 9px;
+  font-size: 16px;
+}
+table tr td{
+  border-right:1px solid #dce8e7;
+  border-bottom:1px solid #dce8e7;
+}
+table{
+  background: #fff none repeat scroll 0 0;
+  border-left: 1px solid #dce8e7;
+  border-top: 1px solid #dce8e7;
+}
+table tr:nth-child(even){background:#e1f1f8;}
+table tr:nth-child(odd){background:whitesmoke;}
+
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.form_prov {
+  font-size: 14px;
+  text-align: right;
+}
+.repite {
+  font-size: 10px;
+  font-weight: bold;
+  padding-left: 10px;
+  color: inherit;
+  margin: 6px 0px 0px 37px;
+}
+.guardar {
+  color: #0062a3;
+  font-weight: bold;
+  margin-right: 1px;
+}
+input[type="checkbox"] {
+	display: none;
+}
+input[type="checkbox"] + label span {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin: -4px 3px 0 0;
+	vertical-align: middle;
+	background: url('../ima/checkbox-uncheck.png');
+	background-size: cover;
+	cursor: pointer;
+}
+input[type="checkbox"]:checked + label span {
+	background: url('../ima/checkbox-check.png');
+	background-size: cover;
+}
+.lista_fac_c i {
+  cursor: pointer;
+}
+.lista_fac_c i:hover {
+  color:#0062a3;
+}
+.tr_lista_fac {
+  color:#0062a3;
+}
+.tr_lista_fac:hover {
+  background-color: #49a56e;
+  color:whitesmoke;
+}
+.tooltipi {
+  color:black;
+	background-color: rgba(255,255,255,0.4);
+  padding: 2px;
+  font-size: 10px !important;
+}
+.icon_chico {
+  font-size: 13px;
+  font-weight: 100;
+}
+.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content {
+  /* Overridden Styles */
+  font-size: 12px;
+}
+.ui-dialog .ui-dialog-titlebar, .ui-dialog .ui-dialog-buttonpane { font-size: 0.7em; }
+.mas_fac {
+  cursor: pointer;
+}
+.error {
+  color:red;
+  font-size: 13px;
+  font-weight: bold;
+}
+.dialog-repe-boton {
+  text-align: right;
+}
+.dialog-repe-conte {
+  width: 100%;
+  height: 100px;
+  overflow-x: auto;
+}
+.bot-conf{
+  height: 32px;
+  width: 30%;
+}
+.tabla-scan {
+  font-size: 14px;
+
+}
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 3px 6px;
+  cursor: pointer;
+  width: -webkit-fill-available;
+}

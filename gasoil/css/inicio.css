@@ -1,0 +1,27 @@
+
+.cabe{
+ background-color: #0062a3;
+ margin:0px;
+ color:whitesmoke;
+ font-family: 'Titillium Web', sans-serif;
+ width: 100%;
+
+
+}
+
+body {
+    background-color: #dce8e7;
+    background-repeat:no-repeat;
+    background-image: url('../ima/bk89.png');
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0062a3;
+  color:whitesmoke;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}

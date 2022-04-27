@@ -1,0 +1,1 @@
+<? header("Location:https://taller.neti.com.ar/gasoil/index.php"); ?>
